@@ -1,0 +1,13 @@
+''' write a program to print biggest of three numbers
+input:4 5 2
+output:5
+hint:a,b,c=map(int,input().split()) for reading a,b,c values
+'''
+a,b,c=map(int,input().split())
+if a>b:
+    if a>c:
+        print('a is big',a)
+elif b>c:
+    print('b is big',b)
+else:
+    print('c is big',c)
